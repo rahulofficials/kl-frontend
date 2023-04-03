@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Piedra&family=Poppins&family=Righteous&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.background img{ 
+    padding-top: 10px; 
+    background-size: cover ;
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: contain;
+    margin: -10px;
+  }
+  .carousel-inner{
+    border-radius: 15px;
+  }
+  .contain{
+      background-image: url("src/assets/images/slide/signup.jpg");
+      background-size: cover;
+  }
+  .form1{
+      background-clip: border-box;
+      color:rgb(255, 255, 255);
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-top: 7%;
+      padding: 10px;
+  }
+  .form2{
+      background-clip: border-box;
+      color:rgb(255, 255, 255);
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-top: 7%;
+      padding: 10px;
+  }
+  .carstyle{
+      margin-top: 2%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 2%;
+  }
+  .carstyle h2{
+    font-size: 70px;
+  }
+  .carstyle p{
+    font-size: 25px;
+    font-family:cursive
+  }
+  #tourist{
+    text-align:center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  .about1{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #cac8c8 0%, #f5f2f2 100%);
+    
+  }
+  
+  .second .card{
+      margin-left: 25px;
+  }
+  
+  #navigation-bar li:hover a::before {
+      right: 0;
+      left: 0;
+    }
+    #navigation-bar a {
+      color:black;
+      font-size: 20px;
+      text-decoration: none;
+      text-align: center;
+      margin-left: 30%;
+      padding: 20px 0;
+      display: block;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+    #navigation-bar a:hover {
+      color: #2415a5;
+    }
+    #navigation-bar a::before {
+      content: "";
+      transition: all 0.4s ease-in-out;
+      position: absolute;
+      right: 50%;
+      left: 50%;
+      bottom: 0;
+      height: 2px;
+      background-color: #2415a5;
+    }
+    #navigation-bar a:hover::before {
+      right: 0;
+      left: 0;
+    }
+     
+    li {
+     list-style: none;
+    }
+  
+    .foot1{
+      width: auto;
+      text-align: center;
+      background-color: black;
+      color: black;
+      height: 40px;
+      padding: 10px;
+    }
+    .fourth img{
+        height: 300px;
+        width: 300px;
+        margin-left: 39%;
+        margin-top :40px; 
+        border-radius: 90%;
+    }
+    .fourth p{
+     font-size: larger;
+     font-family:sans-serif;
+     margin-left: 2%;
+    }
+    .fourth h2{
+      text-align: center;
+    }
+    .fifth h1{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      margin-top: 2%;
+    }
+   .sixth{
+     background-color:rgb(195, 195, 195);
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 10%;
+    }
+    .sixth h5{
+      text-align: center;
+    }
+    .district{
+      background-color: #A9C9FF;
+  background-image: linear-gradient(0deg, #bdbcbc 0%, #f5f2f2 100%);
+    }
+    .seven{
+      background-color:skyblue;
+      background-image: linear-gradient(0deg, #b6b6b6 0%, #eaeaea 100%);
+  
+    }
+    .fourth p{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .fourth h3{
+  text-transform: uppercase;
+  margin-left: 2%;
+    }
+  .seven .fourth h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  .nine{
+    width: 100%;
+    height: 100%;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #cac8c8 0%, #f5f2f2 100%);
+    }
+  .eleven{
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .ten{
+    width: 100%;
+    height: 800px;
+  }
+  .sugges{
+    width: 100%;
+    height: 50%;
+    display: flex;
+  }
+  .sugges a{
+    margin-top: 100px;
+    padding: 100px;
+  }
+  .sugges h1{
+    padding: 40px;
+    font-size: 35px;
+  }
+  .comments{
+    width: 100%;
+    height: 50%;
+    padding: 40px;
+  }
+  .foot2{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  }
+  .abc
+  {
+    border: 3px;
+    padding: 2px;
+  }
+  .fifteen{
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-bottom: 10%;
+    }
+    .fifteen h5{
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+ .index{
+    background-image: url("src/assets/images/Your paragraph text.png");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+
+ }

@@ -1,0 +1,55 @@
+<div class="main">
+<br> <br>
+<div class="container">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <h2 align="center">Register Here</h2> <br>
+            <form>
+                <div class="row g-3">
+                    <div class="col col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="">Name</label>
+                        <input type="text" id="pname" class="form-control" name="pname" [(ngModel)]="pname">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="">Email</label>
+                        <input type="email" id="age" class="form-control" name="age" [(ngModel)]="age">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="">Password</label>
+                        <input type="password" id="gender" class="form-control" name="gender" [(ngModel)]="gender">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <label for="">Confirm Password</label>
+                        <input type="password" id="place" class="form-control" name="place" [(ngModel)]="place">
+                    </div>
+                    <div class="col col-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <button class="btn btn-success" [disabled]="!isFormValid()">Register</button>
+                    </div>
+                </div>
+            </form>    
+        </div>
+        <div class="col-md-6">
+            <h2 align="center">Login Here </h2> <br>
+            <div class="row g-3">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row g-3">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control">
+                    </div> 
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <label for="">Password</label>
+                        <input type="password" class="form-control">
+                    </div> <br>
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <button class="btn btn-success">Login</button>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
